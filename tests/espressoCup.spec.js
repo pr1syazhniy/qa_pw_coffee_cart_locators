@@ -3,9 +3,9 @@ import { test } from '@playwright/test';
 test('Espresso cup added to Cart', async ({ page }) => {
  /*
   1. Open the Coffee Cart menu page https://coffee-cart.app/
-  2. Click at "Espresso" cup
-  3. Click at "Cart" link
-  4. Wait for URL https://coffee-cart.app/cart 
+  2. Click on the "Espresso" cup
+  3. Click one the "Cart" link
+  4. Wait for the URL https://coffee-cart.app/cart 
   5. Click "Remove" button
  */
 
