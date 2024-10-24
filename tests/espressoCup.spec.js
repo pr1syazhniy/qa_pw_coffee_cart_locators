@@ -6,7 +6,7 @@ test('Espresso cup added to Cart', async ({ page }) => {
   2. Click on the "Espresso" cup
   3. Click one the "Cart" link
   4. Wait for the URL https://coffee-cart.app/cart 
-  5. Click "Remove" button
+  5. Click the "Remove" button
  */
 
   await page.goto('https://coffee-cart.app/'); 
