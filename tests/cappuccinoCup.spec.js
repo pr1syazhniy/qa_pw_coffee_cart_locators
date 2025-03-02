@@ -9,4 +9,9 @@ test('Cappuccino cup added to Cart', async ({ page }) => {
   5. Click "+" button to add one more cup of coffee to the cart
  */
 
+  await page.goto('https://coffee-cart.app/'); 
+  await page.getByTestId('Cappuccino').click(); 
+  await page.getByLabel('Cart page').click(); 
+  await page.waitForURL('https://coffee-cart.app/cart'); 
+  await page.getByRole('button', { name: 'Add one Cappuccino' }).click(); 
 });
